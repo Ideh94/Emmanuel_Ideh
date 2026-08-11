@@ -6,6 +6,11 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Emmanuel Ideh",
   description: "I help DTC founders whose campaigns are running but unfocused build a real strategy that ties them together.",
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
