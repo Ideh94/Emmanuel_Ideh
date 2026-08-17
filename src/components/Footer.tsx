@@ -32,14 +32,6 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://drive.google.com/file/d/1ohwTJO8_WDtR6ZW3ZMBPi7fBa9oSn54N/view?usp=drivesdk"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-navy"
-          >
-            CV
-          </a>
-          <a
             href="https://calendly.com/idehanechilexemmanuel/30min"
             target="_blank"
             rel="noopener noreferrer"
