@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#FAFAF8"/>
+  <text x="256" y="300" font-family="Fraunces, Georgia, 'Liberation Serif', serif"
+        font-weight="500" font-size="220" letter-spacing="-6"
+        text-anchor="middle" fill="#14213D">EI</text>
+  <rect x="176" y="336" width="160" height="4" fill="#14213D"/>
+</svg>
