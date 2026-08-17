@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-navy/10 pt-4 text-near-black/60">
-          <a
+          
             href="https://www.linkedin.com/in/emmanuel-ideh"
             target="_blank"
             rel="noopener noreferrer"
@@ -23,7 +23,7 @@ export default function Footer() {
           >
             LinkedIn
           </a>
-          <a
+          
             href="https://github.com/Ideh94/Emmanuel_Ideh"
             target="_blank"
             rel="noopener noreferrer"
@@ -31,7 +31,15 @@ export default function Footer() {
           >
             GitHub
           </a>
-          <a
+          
+            href="/Emmanuel_Ideh_CV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-navy"
+          >
+            CV
+          </a>
+          
             href="https://calendly.com/idehanechilexemmanuel/30min"
             target="_blank"
             rel="noopener noreferrer"
