@@ -23,7 +23,6 @@ export default function Footer() {
           >
             LinkedIn
           </a>
-
           <a
             href="https://github.com/Ideh94/Emmanuel_Ideh"
             target="_blank"
@@ -32,7 +31,6 @@ export default function Footer() {
           >
             GitHub
           </a>
-          
           <a
             href="/Emmanuel_Ideh_CV.pdf"
             target="_blank"
@@ -41,7 +39,6 @@ export default function Footer() {
           >
             CV
           </a>
-          
           <a
             href="https://calendly.com/idehanechilexemmanuel/30min"
             target="_blank"
