@@ -5,12 +5,13 @@ export default function Home() {
     <div className="mx-auto max-w-4xl px-6 py-16">
       <section className="prose-width">
         <h1 className="text-3xl md:text-4xl">
-          Most marketers guess at your audience and messaging. I analyze
-          what&apos;s already happening in your campaigns first — then build
-          the strategy that ties them together.
+          Your brand can rank #1 on Google and still be invisible when
+          ChatGPT or Perplexity answer the same question. I audit why —
+          and fix it.
         </h1>
         <p className="mt-4 text-near-black/80">
-          For DTC founders whose campaigns are running but unfocused.
+          For software products and companies that need to know if AI
+          search engines actually cite them.
         </p>
         <Link
           href="/case-studies"
