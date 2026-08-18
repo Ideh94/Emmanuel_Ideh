@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "I build repeatable workflows for auditing AI search citation, backed by BI-grade data analysis (Power BI, SQL, Python).",
+};
+
 export default function About() {
   return (
     <div className="mx-auto max-w-4xl px-6 py-16">
