@@ -3,23 +3,38 @@ import "./globals.css";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
+const SITE_DESCRIPTION =
+  "I audit whether AI search engines like ChatGPT and Perplexity actually cite your brand — then build the evidence-backed plan to fix it.";
+
 export const metadata: Metadata = {
-  title: "Emmanuel Ideh",
-  description: "I help DTC founders whose campaigns are running but unfocused build a real strategy that ties them together.",
+  metadataBase: new URL("https://emmanuel-ideh.vercel.app"),
+  title: {
+    default: "Emmanuel Ideh — AI Search Visibility & Citation Audits",
+    template: "%s — Emmanuel Ideh",
+  },
+  description: SITE_DESCRIPTION,
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
     apple: "/favicon.svg",
   },
   openGraph: {
+    title: "Emmanuel Ideh",
+    description: SITE_DESCRIPTION,
     images: [
       {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Emmanuel Ideh - Strategic growth for focused DTC campaigns",
+        alt: "Emmanuel Ideh — AI visibility audits for software brands",
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Emmanuel Ideh",
+    description: SITE_DESCRIPTION,
+    images: ["/og-image.svg"],
   },
 };
 

@@ -1,3 +1,11 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Case Studies",
+  description:
+    "How a 9-step audit found a software brand's exact AI citation gap — and the 30-day plan to close it. Tested and validated on two real brands.",
+};
+
 export default function CaseStudies() {
   return (
     <div className="mx-auto max-w-4xl px-6 py-16">
