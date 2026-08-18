@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description: "Get in touch about an AI visibility audit for your product or company.",
+};
+
 export default function Contact() {
   return (
     <div className="mx-auto max-w-4xl px-6 py-16">
