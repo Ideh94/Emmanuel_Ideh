@@ -6,8 +6,8 @@ export default function Home() {
       <section className="prose-width">
         <h1 className="text-3xl md:text-4xl">
           Your brand can rank #1 on Google and still be invisible when
-          ChatGPT or Perplexity answer the same question. I audit why —
-          and fix it.
+          ChatGPT or Perplexity answer the same question. I audit why,
+         and fix it.
         </h1>
         <p className="mt-4 text-near-black/80">
           For software products and companies that need to know if AI
