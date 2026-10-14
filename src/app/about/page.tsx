@@ -3,32 +3,28 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "I build repeatable workflows for auditing AI search citation, backed by BI-grade data analysis (Power BI, SQL, Python).",
+    "Emmanuel Ideh is a Product & Growth Strategist who turns customer and campaign evidence into product positioning and growth decisions.",
 };
 
 export default function About() {
   return (
-    <div className="mx-auto max-w-4xl px-6 py-16">
-      <h1 className="text-3xl">About</h1>
-      <p className="prose-width mt-4 text-near-black/80">
-        I build and validate repeatable workflows for auditing how AI
-        search engines — ChatGPT, Perplexity, Claude — cite (or fail to
-        cite) a brand, then turn that audit into a ranked, evidence-backed
-        content plan to close the gap.
-      </p>
-      <p className="prose-width mt-4 text-near-black/80">
-        Every claim I publish is labeled by what it actually is: something
-        I measured, something from a published benchmark, or an estimate —
-        because &quot;probably&quot; and &quot;confirmed&quot; are
-        different things, and most marketing writing doesn&apos;t bother to
-        say which one it&apos;s giving you.
-      </p>
-      <p className="prose-width mt-4 text-near-black/80">
-        I come from a background in BI and data analysis (Excel, SQL, Power BI, 
-        Python), which is why I default to checking a claim against a live
-        source before I write it down. That habit is the whole method, not
-        a side skill.
-      </p>
+    <div className="mx-auto max-w-6xl px-6 py-16 sm:py-24 lg:px-10">
+      <div className="max-w-3xl">
+        <p className="eyebrow text-bronze">About</p>
+        <h1 className="mt-4 text-4xl sm:text-5xl">I turn customer and campaign evidence into product positioning and growth decisions.</h1>
+        <p className="prose-width mt-8 text-lg leading-8 text-near-black/80">
+          I work across product marketing, growth strategy, marketing research and customer insight. When a product or campaign is live but the parts are not pulling in one direction, I look for what the customer, market and campaign evidence already say. That becomes the basis for sharper positioning, go-to-market choices and a growth plan the team can explain.
+        </p>
+        <p className="prose-width mt-5 text-near-black/75">
+          My working rule is simple: Evidence over assumption. Strategy before tactics. Research and analytics are part of the work, not headline titles. I use tools such as SQL, Python, Excel and Power BI to check the story behind a decision.
+        </p>
+      </div>
+
+      <div className="mt-14 grid gap-4 border-t border-navy/15 pt-8 sm:grid-cols-3">
+        <div><p className="eyebrow text-bronze">01 / Diagnose</p><p className="mt-3 text-near-black/75">Customer, product, campaign and market evidence.</p></div>
+        <div><p className="eyebrow text-bronze">02 / Decide</p><p className="mt-3 text-near-black/75">Positioning, product messaging and go-to-market choices.</p></div>
+        <div><p className="eyebrow text-bronze">03 / Grow</p><p className="mt-3 text-near-black/75">A focused plan tied to adoption, customer journeys and commercial measures.</p></div>
+      </div>
     </div>
   );
 }

@@ -3,11 +3,13 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="border-t border-navy/10">
-      <div className="mx-auto flex max-w-4xl flex-col items-start gap-6 px-6 py-8 text-sm text-near-black/70">
+      <div className="mx-auto flex max-w-6xl flex-col items-start gap-6 px-6 py-8 text-sm text-near-black/70 lg:px-10">
         <div className="flex flex-col items-start gap-2">
-          <span className="font-heading text-navy">EI</span>
+          <span className="font-heading text-lg text-navy">EI</span>
+          <span>Product &amp; Growth Strategist</span>
+          <span className="text-xs text-near-black/55">Evidence over assumption. Strategy before tactics.</span>
           <Link href="/case-studies" className="hover:text-navy">
-            Read the case study
+            Explore selected work
           </Link>
           <a href="mailto:emmanuel.ideh@10x.ai" className="hover:text-navy">
             emmanuel.ideh@10x.ai

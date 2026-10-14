@@ -4,13 +4,13 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 const SITE_DESCRIPTION =
-  "I audit whether AI search engines like ChatGPT and Perplexity actually cite your brand — then build the evidence-backed plan to fix it.";
+  "Emmanuel Ideh is a Product & Growth Strategist. Customer evidence to positioning and growth decisions. Evidence over assumption.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://emmanuel-ideh.vercel.app"),
   title: {
-    default: "Emmanuel Ideh — AI Search Visibility & Citation Audits",
-    template: "%s — Emmanuel Ideh",
+    default: "Emmanuel Ideh | Product & Growth Strategist",
+    template: "%s | Emmanuel Ideh",
   },
   description: SITE_DESCRIPTION,
   icons: {
@@ -19,20 +19,20 @@ export const metadata: Metadata = {
     apple: "/favicon.svg",
   },
   openGraph: {
-    title: "Emmanuel Ideh",
+    title: "Emmanuel Ideh | Product & Growth Strategist",
     description: SITE_DESCRIPTION,
     images: [
       {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Emmanuel Ideh — AI visibility audits for software brands",
+          alt: "Emmanuel Ideh, Product & Growth Strategist",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Emmanuel Ideh",
+    title: "Emmanuel Ideh | Product & Growth Strategist",
     description: SITE_DESCRIPTION,
     images: ["/og-image.svg"],
   },

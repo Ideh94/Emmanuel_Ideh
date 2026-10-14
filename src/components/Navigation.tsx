@@ -10,12 +10,12 @@ const links = [
 export default function Navigation() {
   return (
     <nav className="border-b border-navy/10">
-      <div className="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
-        <Link href="/" className="font-heading text-lg font-medium text-navy">EI</Link>
-        <ul className="flex gap-6">
+      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-y-3 px-6 py-4 lg:px-10">
+        <Link href="/" aria-label="Emmanuel Ideh home" className="font-heading text-lg font-medium tracking-wide text-navy">EI</Link>
+        <ul className="flex flex-wrap gap-x-4 gap-y-2 sm:gap-x-6">
           {links.map((link) => (
             <li key={link.href}>
-              <Link href={link.href} className="text-sm font-medium text-near-black hover:text-navy">
+              <Link href={link.href} className="text-xs font-medium text-near-black hover:text-navy sm:text-sm">
                 {link.label}
               </Link>
             </li>
