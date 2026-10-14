@@ -32,10 +32,10 @@ export default function Home() {
   return (
     <div>
       <section className="hero-band">
-        <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 sm:py-28 lg:grid-cols-[1.3fr_0.7fr] lg:items-end lg:px-10">
+        <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 sm:py-24 lg:grid-cols-[1.2fr_0.8fr] lg:items-start lg:gap-16 lg:px-10">
           <div>
             <p className="eyebrow text-bronze">Product &amp; Growth Strategist</p>
-            <h1 className="mt-6 max-w-3xl text-5xl leading-[1.04] text-near-white sm:text-6xl lg:text-7xl">
+            <h1 className="mt-5 max-w-3xl text-5xl leading-[1.04] text-near-white sm:text-6xl">
               Evidence over assumption. Strategy before tactics.
             </h1>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-near-white/80 sm:text-xl">
@@ -46,7 +46,7 @@ export default function Home() {
               <Link href="/contact" className="button-outline-light">Discuss a decision</Link>
             </div>
           </div>
-          <aside className="hero-note" aria-label="Positioning summary">
+          <aside className="hero-note lg:mt-16" aria-label="Positioning summary">
             <p className="eyebrow text-near-white/55">Working principle</p>
             <p className="mt-5 font-heading text-2xl leading-snug text-near-white sm:text-3xl">
               Customer evidence to positioning and growth decisions.

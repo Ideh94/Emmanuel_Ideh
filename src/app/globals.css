@@ -39,7 +39,7 @@ a:focus-visible { outline: 2px solid var(--bronze); outline-offset: 4px; }
 .eyebrow { font-size: .72rem; font-weight: 600; letter-spacing: .14em; line-height: 1.4; text-transform: uppercase; }
 .hero-band { background: var(--navy); }
 .hero-band h1 { color: var(--near-white); }
-.hero-note { border-left: 1px solid rgb(250 250 248 / 30%); padding: .5rem 0 .5rem 1.5rem; }
+.hero-note { border-left: 1px solid rgb(140 94 42 / 75%); padding: .5rem 0 .5rem 1.5rem; }
 .button-light, .button-dark, .button-outline-light, .button-outline-dark {
   display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: .8rem;
   padding: .7rem 1.1rem; font-size: .875rem; font-weight: 600; transition: background-color .18s, color .18s, border-color .18s;
