@@ -90,10 +90,10 @@ export default function Home() {
           </div>
           <div>
             <p className="max-w-2xl text-near-black/75">
-              A practical audit sequence for DTC teams: move from conversion rate and customer journey to acquisition cost, then check whether return on ad spend reflects durable growth.
+              A practical audit sequence for DTC teams: examine CVR, then CAC, then the customer journey, and finally ROAS.
             </p>
             <div className="mt-7 flex flex-wrap gap-2">
-              {["CVR", "Customer Journey", "CAC", "ROAS"].map((step, index) => (
+              {["CVR", "CAC", "Customer Journey", "ROAS"].map((step, index) => (
                 <span key={step} className="sequence-chip"><span>{String(index + 1).padStart(2, "0")}</span>{step}</span>
               ))}
             </div>
