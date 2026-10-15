@@ -33,20 +33,21 @@ export default function Home() {
     <div>
       <section className="hero-band">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 sm:py-24 lg:grid-cols-[1.2fr_0.8fr] lg:items-start lg:gap-16 lg:px-10">
-          <div>
-            <p className="eyebrow text-bronze">Product &amp; Growth Strategist</p>
-            <h1 className="mt-5 max-w-3xl text-5xl leading-[1.04] text-near-white sm:text-6xl">
-              Evidence over assumption. Strategy before tactics.
+          <div className="hero-copy">
+            <p className="eyebrow text-bronze hero-eyebrow">Product &amp; Growth Strategist</p>
+            <h1 className="hero-title mt-5 max-w-3xl text-5xl leading-[1.04] text-near-white sm:text-6xl">
+              <span>Evidence over assumption.</span>
+              <span>Strategy before tactics.</span>
             </h1>
-            <p className="mt-8 max-w-2xl text-lg leading-8 text-near-white/80 sm:text-xl">
+            <p className="hero-intro mt-8 max-w-2xl text-lg leading-8 text-near-white/80 sm:text-xl">
               I help founders and product teams whose product or campaigns are live but not pulling in one direction build a clear product and growth strategy. I start with what customers, campaigns and market data already show, then build positioning, go-to-market and growth plans that trace back to evidence.
             </p>
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="hero-actions mt-10 flex flex-wrap gap-4">
               <Link href="/case-studies" className="button-light">Explore the work <span aria-hidden="true">↗</span></Link>
               <Link href="/contact" className="button-outline-light">Discuss a decision</Link>
             </div>
           </div>
-          <aside className="hero-note lg:mt-16" aria-label="Positioning summary">
+          <aside className="hero-note hero-note-enter lg:mt-16" aria-label="Positioning summary">
             <p className="eyebrow text-near-white/55">Working principle</p>
             <p className="mt-5 font-heading text-2xl leading-snug text-near-white sm:text-3xl">
               Customer evidence to positioning and growth decisions.
@@ -54,6 +55,11 @@ export default function Home() {
             <div className="mt-8 border-t border-near-white/20 pt-5 text-sm text-near-white/65">
               Product strategy <span className="text-bronze">/</span> Growth systems <span className="text-bronze">/</span> Clear measurement
             </div>
+            <ol className="decision-route" aria-label="How the work moves from evidence to action">
+              <li><span className="route-dot" aria-hidden="true" />Listen</li>
+              <li><span className="route-dot" aria-hidden="true" />Position</li>
+              <li><span className="route-dot" aria-hidden="true" />Grow</li>
+            </ol>
           </aside>
         </div>
       </section>
